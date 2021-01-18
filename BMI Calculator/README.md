@@ -1,2 +1,2 @@
 
-!(BMI Calculator/BMI_cal.gif)
+!(/BMI_cal.gif)
