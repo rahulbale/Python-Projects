@@ -84,7 +84,7 @@ def return_Book():
 
     headingFrame1 = Frame(root, bg="#FFBB00", bd=5)
     headingFrame1.place(relx=0.25, rely=0.1, relwidth=0.5, relheight=0.13)
-    Label(headingFrame1, text="Delete Book", font=('Courier', 15, "bold"),
+    Label(headingFrame1, text="Return Book", font=('Courier', 15, "bold"),
           bg='black', fg='white').place(relwidth=1, relheight=1)
 
     mainFrame = Frame(root, bg='black')
@@ -96,7 +96,7 @@ def return_Book():
     bookInfo1 = Entry(mainFrame, font=('Courier'))
     bookInfo1.place(relx=0.3, rely=0.4, relwidth=0.6, relheight=0.08)
 
-    submitBtn = Button(root, text="Submit", bg="black", fg="white", font=('Courier', 10), command= returnn)
+    submitBtn = Button(root, text="Return", bg="black", fg="white", font=('Courier', 10), command= returnn)
     submitBtn.place(relx=0.25, rely=0.85, relwidth=0.18, relheight=0.08)
 
     quitBtn = Button(root, text="Quit", bg="black", fg="white", font=('Courier', 10), command=root.destroy)
