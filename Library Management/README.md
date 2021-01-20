@@ -15,4 +15,4 @@
 2. Sqlite3
 
 ### Demo
-![GIF](Demo/BMI_cal.gif)
+![GIF](Demo/library.gif)
