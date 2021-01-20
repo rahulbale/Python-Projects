@@ -64,7 +64,7 @@ def deleteBook():
     bookInfo1 = Entry(mainFrame, font=('Courier'))
     bookInfo1.place(relx=0.3, rely=0.4, relwidth=0.6, relheight=0.08)
 
-    submitBtn = Button(root, text="Submit", bg="black", fg="white", font=('Courier', 10), command=delete)
+    submitBtn = Button(root, text="Delete", bg="black", fg="white", font=('Courier', 10), command=delete)
     submitBtn.place(relx=0.25, rely=0.85, relwidth=0.18, relheight=0.08)
 
     quitBtn = Button(root, text="Quit", bg="black", fg="white", font=('Courier', 10), command=root.destroy)
