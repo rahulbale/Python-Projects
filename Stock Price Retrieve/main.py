@@ -46,7 +46,7 @@ def gui():     #Gui for the Project
 
     headingFrame = Frame(root, bg = "#00cc00", bd = 12)
     headingFrame.place(relx = 0, rely = 0, relwidth = 1, relheight = 0.2)
-    headingLable = Label(headingFrame, text="Stock Retriever", font=('Courier', 25, "bold"), bg='black',
+    headingLable = Label(headingFrame, text="Stock Retrieve", font=('Courier', 25, "bold"), bg='black',
                           fg='white')
     headingLable.place(relwidth=1, relheight=1)
 
