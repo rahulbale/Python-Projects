@@ -8,4 +8,4 @@ Calcualtes the BMI (Body Mass Index) using Height and weight of individual perso
 1. Tkinter
 
 ### Demo
-![GIF](Demo/stockprice.gif)
+![GIF](stockprice.gif)
